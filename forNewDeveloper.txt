@@ -1,0 +1,121 @@
+# W.O.M. Dating App
+
+Welcome to the W.O.M. dating app repository. This project is designed to create a dynamic and engaging dating platform for users. Below, you will find all the necessary information to set up, navigate, and continue development.
+
+---
+
+## **Project Overview**
+W.O.M. is a mobile application built using React Native and Expo Go. It incorporates modern tools and services to ensure an engaging and secure user experience. The app currently includes screens for user registration, login, events, chats, profiles, and more.
+
+---
+
+## **Project Setup**
+
+### **1. Prerequisites**
+Ensure you have the following installed:
+- Node.js (v16 or higher recommended)
+- Expo CLI (`npm install -g expo-cli`)
+- Android Studio (for Android emulator) or Xcode (for iOS development)
+
+### **2. Initial Setup**
+1. Clone the repository to your local machine.
+   ```bash
+   git clone [repository-url]
+   ```
+2. Navigate into the project directory.
+   ```bash
+   cd wom-dating-app
+   ```
+3. Install all dependencies.
+   ```bash
+   npm install
+   ```
+
+### **3. Running the Application**
+1. Start the development server:
+   ```bash
+   npx expo start
+   ```
+2. Follow one of these options to open the app:
+   - Press `a` in the terminal to launch on a connected Android device or emulator.
+   - Press `i` in the terminal to launch on an iOS device or simulator.
+   - Scan the QR code in the terminal with the Expo Go app on your mobile device.
+
+---
+
+## **File Structure**
+
+### **/screens**
+Contains all screen components. Naming convention: `NameScreen.js` (e.g., `LoginScreen.js`).
+
+Key screens include:
+- **StartUpScreen.js**: Initial loading screen.
+- **InfoScreen.js**: App introduction.
+- **WelcomeScreen.js**: Welcome page for new users.
+- **RegisterScreen.js**: User registration form.
+- **LoginScreen.js**: User login form.
+- **TermsScreen.js**: Terms of service.
+- **PrivacyPolicyScreen.js**: Privacy policy.
+- **HomeScreen.js**: Main logged-in user screen.
+- **EventsScreen.js**: Events listing.
+- **ChatScreen.js**: Messaging functionality.
+- **QuizesScreen.js**: Interactive quizzes.
+- **ProfileScreen.js**: User profile.
+
+### **/navigation**
+Handles navigation logic.
+- **index.js**: Initial navigation flow (e.g., login, registration).
+- **BottomTabsNavigation.js**: Tab navigation for logged-in user features.
+
+### **/assets**
+Contains images and design files:
+- Vector icons (e.g., `logo.png`, `logo-blue.webp`).
+- Screen assets (e.g., `asian-jim.webp`, `welcome.webp`).
+
+### **Illustrator Files**
+Located in the repository for branding and design:
+- **wom2.ai**
+- **wom-logo.ai**
+- **wom-welcome.ai**
+- **wom-welcome2.ai**
+
+---
+
+## **Installed Packages**
+- `react-native-vector-icons`: For free, customizable icons.
+- `@react-navigation/native`: Core navigation library.
+- `@react-navigation/bottom-tabs`: Bottom tab navigation.
+
+---
+
+## **Key Services and Integrations**
+
+### **Planned Services**
+- **Plaid** (U.S.) & **Interact** (Canada): Bank authentication.
+- **Snapchat/Bitmoji**: User avatars.
+- **Google reCAPTCHA**: Bot detection.
+- **Firebase Realtime DB**: Backend database.
+- **Google Maps API**: GPS and location-based features.
+- **Cesium**: 3D modeling for event cities.
+- **Interact Payment Terminal**: Premium feature payments.
+- **Cryptoapis.io**: Cryptocurrency functionalities.
+
+---
+
+## **Developer Notes**
+- Navigation components must be passed and received properly between screens (refer to `BottomTabsNavigation.js`).
+- Adhere to the existing folder and file naming conventions for consistency.
+- Check for package updates in the terminal before launching the app.
+- Rigorous testing of navigation, UI/UX, and backend integrations is critical.
+
+---
+
+## **Contact Information**
+For any questions or further guidance, contact the previous developer:
+
+**Name**: Max
+**Email**: parksmax477@gmail.com
+
+---
+
+Happy Coding!
